@@ -27,7 +27,7 @@ public class Main {
 		if (isSimetric(matrix, 0, 0)) {
 			System.out.println("La matriz de tamaño " + tam + " es de raíz entera simétrica.");
 		} else {
-			System.out.println("La matriz de tamaño " + tam + " no es de raíz entera simétrica.");
+			System.out.println("La matriz de tamaño " + tam + " es de raíz entera no simétrica.");
 		}
 		sc.close();
 	}
